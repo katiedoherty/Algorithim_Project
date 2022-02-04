@@ -23,7 +23,9 @@ List<String> words= new ArrayList<String>();
  
 //holds the adjectives.txt file in a linkedlist.
 public String[] makenewarray() throws FileNotFoundException {
-Scanner sc = new Scanner(new File("words1\\adjectives.txt"));
+    ///workspace/Algorithim_Project/src/application/words1
+    //src/application/words1/adjectives.txt
+Scanner sc = new Scanner(new File("src/application/words1/adjectives.txt"));
    
     while (sc.hasNextLine()) {
      words.add(sc.nextLine());
